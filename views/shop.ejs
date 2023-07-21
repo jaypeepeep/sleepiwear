@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- METADATA -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="PICTURE-PREVIEW" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- METADATA -->
+
+    <title>Shop</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- GOOGLE FONTS -->
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/ad98de5722.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME -->
+
+    <!-- CUSTOM STYLESHEETS -->
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <!-- CUSTOM STYLESHEETS -->
+  </head>
+  <body>
+    <!-- HTML code here -->
+    <header>
+      <div class="nav container">
+        <div class="logo">
+          <img src="img/home-logo.png" height="150px" width="150px" alt="" />
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/shop">Shop</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <img class="pprofile" src="img/profileicon.png" alt="" />
+        </ul>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-text container">
+        <h2 class="home-title">Sleepi Wear</h2>
+        <span class="home-subtitle">Sleeping Clothes</span>
+      </div>
+    </section>
+    <section class="slider-section">
+      <div class="slider">
+        <div class="slide">
+          <input type="radio" class="radio-btn" id="radio1" />
+          <input type="radio" class="radio-btn" id="radio2" />
+          <input type="radio" class="radio-btn" id="radio3" />
+          <input type="radio" class="radio-btn" id="radio4" />
+          <div class="st first">
+            <img src="/img/Toddler.png" alt="" />
+          </div>
+          <div class="st">
+            <img src="/img/Children.png" alt="" />
+          </div>
+          <div class="st">
+            <img src="/img/Teenager.png" alt="" />
+          </div>
+          <div class="st">
+            <img src="/img/Adult.png" alt="" />
+          </div>
+          <div class="nav-auto">
+            <div class="a-b1"></div>
+            <div class="a-b2"></div>
+            <div class="a-b3"></div>
+            <div class="a-b4"></div>
+          </div>
+        </div>
+        <div class="nav-m">
+          <label for="radio1" class="m-btn"></label>
+          <label for="radio2" class="m-btn"></label>
+          <label for="radio3" class="m-btn"></label>
+          <label for="radio4" class="m-btn"></label>
+        </div>
+      </div>
+    </section>
+    <div class="post-filter contaner">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="toddler">Toddler</span>
+      <span class="filter-item" data-filter="child">Child</span>
+      <span class="filter-item" data-filter="teen">Teen</span>
+      <span class="filter-item" data-filter="adult">Adult</span>
+    </div>
+    <!-- Blog code here -->
+    <section class="post container">
+      <div class="post-box adult">
+        <img src="img/adults/35.png" alt="" class="post-img" />
+        <h2 class="category">Adult</h2>
+        <a href="/product1" class="post-title">
+          Purrfectly Dreamy Adult Sleepwear
+        </a>
+        <span class="post-date">&#8369;1,200.00</span>
+        <p class="post-description">
+          Introducing the Purrfect Dreams Cat-Print Adult Sleepwear Set, a
+          delightful combination of comfort and feline charm. Crafted with the
+          utmost care, this cozy sleepwear ensemble is designed to provide
+          adults with a restful slumber while adding a touch of whimsy to their
+          bedtime routine.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product1" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box toddler">
+        <img src="img/toddler/1.png" alt="" class="post-img" />
+        <h2 class="category">Toddler</h2>
+        <a href="/product2" class="post-title">
+          Rainbow Dreams: Cozy Toddler Sleepwear with Vibrant Stripes
+        </a>
+        <span class="post-date">&#8369;800.00</span>
+        <p class="post-description">
+          Introducing our delightful Rainbow Stripes Toddler Sleeping Clothes,
+          the perfect blend of comfort, style, and enchantment for your little
+          one's bedtime routine. Crafted with utmost care and attention to
+          detail, these sleepwear sets will ensure your toddler drifts off to
+          dreamland in pure bliss.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product2" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box teen">
+        <img src="img/teenager/25.png" alt="" class="post-img" />
+        <h2 class="category">Teen</h2>
+        <a href="/product3" class="post-title">
+          Shark Bites Teenager Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;800.00</span>
+        <p class="post-description">
+          Dive into a world of comfort and style with our Shark Bites Teenager
+          Sleeping Clothes. Designed exclusively for teenagers who seek
+          adventure even in their dreams, these sleepwear sets will make bedtime
+          an exciting and cozy experience. Crafted from high-quality, ultra-soft
+          fabric, our teenager sleeping clothes offer supreme comfort that's
+          perfect for a restful night's sleep. The breathable material ensures
+          optimal airflow, keeping your teenager cool and comfortable throughout
+          the night.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product3" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box child">
+        <img src="img/children/14.png" alt="" class="post-img" />
+        <h2 class="category">Child</h2>
+        <a href="/product4" class="post-title">
+          Blooming Petals Children's Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Indulge your child in a world of sweet dreams and blooming beauty with
+          our Blooming Petals Children's Sleeping Clothes. These enchanting
+          sleepwear sets are designed to provide utmost comfort while showcasing
+          a delightful pink flower design that will captivate your little one's
+          imagination.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product4" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box adult">
+        <img src="img/adults/32.png" alt="" class="post-img" />
+        <h2 class="category">Adult</h2>
+        <a href="/product5" class="post-title">
+          Silk Blush Adult Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;2,000.00</span>
+        <p class="post-description">
+          Experience the epitome of luxury and comfort with our Blissful Pink
+          Silk Adult Sleeping Attire. Designed to envelop you in a world of
+          tranquility, these sleepwear sets combine the indulgence of silk with
+          a delightful pink hue, creating the perfect blend of elegance and
+          coziness for your nighttime routine.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product5" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box toddler">
+        <img src="img/toddler/2.png" alt="" class="post-img" />
+        <h2 class="category">Toddler</h2>
+        <a href="/product6" class="post-title">
+          Polka Dot Dreams Toddler Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;900.00</span>
+        <p class="post-description">
+          Introducing our adorable Polka Dot Dreams Toddler Sleeping Clothes,
+          designed to bring joy and comfort to your little one's bedtime
+          routine. With a delightful polka dot design and charming pink edges,
+          these sleepwear sets are perfect for creating a playful and cozy sleep
+          environment.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product6" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box teen">
+        <img src="img/teenager/23.png" alt="" class="post-img" />
+        <h2 class="category">Teen</h2>
+        <a href="/product7" class="post-title">
+          Celestial Dreams Teenager Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Embark on a journey to the mystical night sky with our Celestial
+          Dreams Teenager Sleeping Clothes. Crafted with care and designed to
+          inspire, these sleepwear sets combine the allure of a deep navy blue
+          color with captivating star and moon designs, creating an enchanting
+          atmosphere for your teenager's slumber.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product7" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box child">
+        <img src="img/children/12.png" alt="" class="post-img" />
+        <h2 class="category">Child</h2>
+        <a href="/product8" class="post-title">
+          Cosmic Adventures Children's Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,200.00</span>
+        <p class="post-description">
+          Ignite your child's imagination and fuel their dreams with our Cosmic
+          Adventures Children's Sleeping Clothes. Designed with vibrant blue
+          fabric adorned with rockets and planets, these sleepwear sets will
+          transport your little one to a world of intergalactic wonder as they
+          drift off to sleep.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product8" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box adult">
+        <img src="img/adults/31.png" alt="" class="post-img" />
+        <h2 class="category">Adult</h2>
+        <a href="/product9" class="post-title">
+          "Dreamy Nights" Adult Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,500.00</span>
+        <p class="post-description">
+          Experience blissful nights of restful sleep with our Adult Matching
+          "Dreamy Nights" Sleeping Clothes. This delightful set features navy
+          blue long sleeve sleepwear adorned with the charming "zzzzzz" text,
+          creating a cozy and comforting atmosphere for both adults and children
+          alike.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product9" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box toddler">
+        <img src="img/toddler/3.png" alt="" class="post-img" />
+        <h2 class="category">Toddler</h2>
+        <a href="/product10" class="post-title">
+          Starry Slumbers Toddler Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;900.00</span>
+        <p class="post-description">
+          Introduce your little one to a world of magical dreams with our Starry
+          Slumbers Toddler Sleeping Clothes. Crafted in a soothing light green
+          hue and adorned with adorable star designs, these sleepwear sets are
+          designed to create a serene and enchanting bedtime experience for your
+          toddler.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product10" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box teen">
+        <img src="img/teenager/21.png" alt="" class="post-img" />
+        <h2 class="category">Teen</h2>
+        <a href="/product11" class="post-title">
+          Serenity Nights Teenager Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Unwind and experience serene nights of relaxation with our Serenity
+          Nights Teenager Sleeping Clothes. These sleepwear sets, featuring a
+          calming gray color with a stylish dark blue collar and long sleeves,
+          are designed to envelop teenagers in comfort and tranquility as they
+          drift off to dreamland.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product11" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box child">
+        <img src="img/children/10.png" alt="" class="post-img" />
+        <h2 class="category">Child</h2>
+        <a href="/product12" class="post-title">
+          Checkered Dreams Children's Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,200.00</span>
+        <p class="post-description">
+          Experience nights filled with comfort and style with our Checkered
+          Dreams Children's Sleeping Clothes. Designed with a delightful
+          checkered pattern in vibrant red and blue hues, these sleepwear sets
+          are perfect for creating cozy and charming slumbers for your little
+          ones.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product12" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box adult">
+        <img src="img/adults/27.png" alt="" class="post-img" />
+        <h2 class="category">Adult</h2>
+        <a href="/product13" class="post-title">
+          Navy Nights Adult Polo Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;2,000.00</span>
+        <p class="post-description">
+          Experience the perfect blend of comfort and style with our Navy Nights
+          Adult Polo Sleeping Clothes. Crafted with care and designed for
+          ultimate relaxation, these sleepwear sets combine the classic appeal
+          of a navy blue polo design with the luxurious comfort of premium
+          materials.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product13" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box toddler">
+        <img src="img/toddler/4.png" alt="" class="post-img" />
+        <h2 class="category">Toddler</h2>
+        <a href="/product14" class="post-title">
+          Sweet Dreams Toddler Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;900.00</span>
+        <p class="post-description">
+          Prepare your little one for a night of sweet dreams with our Sweet
+          Dreams Toddler Sleeping Clothes. Designed in a delightful shade of
+          pink and featuring the charming text "A Girl Needs Her Beauty Sleep,"
+          these sleepwear sets are the perfect combination of comfort and style
+          for your precious toddler.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product14" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box teen">
+        <img src="img/teenager/19.png" alt="" class="post-img" />
+        <h2 class="category">Teen</h2>
+        <a href="/product15" class="post-title">
+          Dreaming Cows Teenager Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Immerse yourself in a world of comfort and whimsy with our Dreaming
+          Cows Teenager Sleeping Clothes. These sleepwear sets, designed in a
+          soothing shade of gray with adorable cow designs, are the perfect
+          blend of relaxation and playfulness for teenagers.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product15" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box child">
+        <img src="img/children/8.png" alt="" class="post-img" />
+        <h2 class="category">Child</h2>
+        <a href="/product16" class="post-title">
+          Snoozeville Children's Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Embark on a journey to Snoozeville with our Children's Sleeping
+          Clothes. Designed in a soothing shade of blue and featuring a playful
+          Snorlax design, these sleepwear sets are perfect for creating a cozy
+          and whimsical bedtime experience for your little ones.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product16" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box adult">
+        <img src="img/adults/26.png" alt="" class="post-img" />
+        <h2 class="category">Adult</h2>
+        <a href="/product17" class="post-title">
+          Crimson Comfort Adult Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;2,000.00</span>
+        <p class="post-description">
+          Experience the epitome of comfort and relaxation with our Crimson
+          Comfort Adult Sleeping Clothes. Designed with a reddish hue and a
+          focus on ultimate coziness, these sleepwear sets are perfect for
+          embracing tranquil nights and unwinding in style.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product17" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box toddler">
+        <img src="img/toddler/5.png" alt="" class="post-img" />
+        <h2 class="category">Toddler</h2>
+        <a href="/product18" class="post-title">
+          Mountain Mover Toddler Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;900.00</span>
+        <p class="post-description">
+          Prepare your little one for a night of peaceful slumber with our
+          Mountain Mover Toddler Sleeping Clothes. Designed in a soothing light
+          blue hue and featuring the empowering phrase "Let him sleep, for when
+          he wakes, he will move mountains," these sleepwear sets are the
+          perfect blend of comfort and inspiration for your adventurous toddler.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product18" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box teen">
+        <img src="img/teenager/16.png" alt="" class="post-img" />
+        <h2 class="category">Teen</h2>
+        <a href="/product19" class="post-title">
+          Dreamy Slumbers Teenager Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,000.00</span>
+        <p class="post-description">
+          Indulge in blissful slumber and embrace sweet serenity with our Dreamy
+          Slumbers Teenager Sleeping Clothes. This sleepwear set, featuring a
+          light pink cropped top adorned with closed eyes and a charming "Let Me
+          Sleep" design, is designed to envelop teenagers in comfort and
+          relaxation during their nighttime routine.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product19" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+      <div class="post-box child">
+        <img src="img/children/6.png" alt="" class="post-img" />
+        <h2 class="category">Child</h2>
+        <a href="/product20" class="post-title">
+          Jiggly Dreams Children's Sleeping Clothes
+        </a>
+        <span class="post-date">&#8369;1,100.00</span>
+        <p class="post-description">
+          Experience the perfect blend of cuteness and comfort with our Jiggly
+          Dreams Children's Sleeping Clothes. Designed in a delightful shade of
+          pink and featuring the adorable Jigglypuff design, these sleepwear
+          sets are guaranteed to make bedtime a whimsical and cozy experience
+          for your little ones.
+        </p>
+        <div class="profile">
+          <img src="img/sleepi-wear logo.png" alt="" class="profile-img" />
+          <span class="profile-name">Sleepi Wear</span>
+          <div><a href="/product20" class="btn">Buy Now </a></div>
+        </div>
+      </div>
+    </section>
+    <div class="footer container">
+      <p>&#169; Sleepi Wear All Right Reserved</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/ad98de5722.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/javascripts/script.js"></script>
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+    <!-- SCRIPTS -->
+  </body>
+</html>
