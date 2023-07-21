@@ -1,4 +1,4 @@
-# Railey's Personal Website Boilerplate
+# Sleepi Wear Website
 
 A custom website boilerplate to start coding a website/app instantly.
 
