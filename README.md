@@ -45,4 +45,4 @@ Make a general section and then inside of it add a child element with the class 
 
 ## Copyright
 
-This code is copyrighted by Fabian Railey A. Victuelles.
+This code is copyrighted by John Patrick Lagatuz, Juan Ramon Corpuz
